@@ -1,0 +1,355 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* baner start */
+.baner{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    margin-top: 25px;
+    border-radius: 25px;
+    padding: 50px 100px 0px 100px;
+}
+
+.box-1{
+    width: 100%;
+
+}
+.box-2{
+    width: 100%;
+}
+.box-1 h1{
+    color: wheat;
+    font-size: 60px;
+    margin-top: 60px;
+    font-weight: 900;
+    line-height: 66px;
+}
+.box-1 p{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    line-height: 30px;
+    font-size: 19px;
+    margin-right: 10px; 
+}
+.box-1 p span{
+    color: aqua;
+}
+.box-1 a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+.box-1 a:hover{
+    background-image: linear-gradient(red,tomato,violet);
+    color:whitesmoke;
+    transition: all .5s;
+    
+}
+
+/* baner end */
+
+/* main content start* */
+
+.content1{
+    width: 300px;
+    height: 250px;
+    background-color: rgb(15, 14, 14);
+    padding: 20px 0;
+    border-radius: 8px;
+}
+.content1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid;
+    flex-direction: column;
+    display: flex;
+    margin-top: 30px;
+    padding: 12px;
+    width: 170px;
+    margin-left: 45px;
+    text-align: center;
+    background-color: white;
+    color:blue;
+    font-weight: 600;
+    border-radius: 15px;
+}
+.content1 a:hover{
+    background-image: linear-gradient(rgb(170, 100, 100),rgb(158, 88, 75),rgb(154, 65, 154));
+    color:rgb(11, 11, 11);
+    transition: all .5s;
+}
+.main{
+    width: 82%;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.pler{
+    width: 300px;
+    height: 300px;
+    height: 100%;
+    padding-bottom: 10px;
+    background-color: rgb(220, 226, 233);
+}
+.pler button{
+    width: 90px;
+    border: 1px solid;
+    margin-left: 10px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-right: 15px ;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    box-shadow: 2px 2px 2px;
+    cursor: pointer;
+}
+.pler button:hover{
+    background-color: aqua;
+    transition: all .5s;
+}
+.pler p{
+    margin-left: 10px;
+    font-size: 19px;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.pler i{
+    margin-left: 10px;
+}
+#r{
+    margin-left: 45px;
+}
+.main{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.content2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.vew{
+    width: 70%;
+    margin: auto;
+}
+.vew h1{
+    background-color: aqua;
+    text-align: center;
+    width: 150px;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    display: none;
+}
+.vew h1:hover{
+    background-image: linear-gradient(red,tomato,violet);
+    color:whitesmoke;
+    transition: all .5s;
+}
+
+
+/* main content end* */
+
+/* footer start */
+footer{
+    background-color: aqua;
+    margin-top: 80px ;
+    margin-bottom: 20px;
+    text-align: center;
+}
+footer h1{
+    padding: 20px;
+}
+footer .liine{
+    height: 2px;
+    width: 80%;
+    margin: auto;
+    background-color: black;
+    margin-bottom: 10px;
+}
+.fu{
+    display: flex;
+    padding: 20px;
+    margin-left: 250px;
+}
+.f{
+    margin-left: 50px;
+
+}
+
+.fu .f a{
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+.fb i{
+    font-size: 30px;
+    margin: 10px;
+    color: rgba(255, 0, 0, 0.919);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+/* footer end */
+
+/* upcoming mass all css start */
+.mas{
+    width: 300px;
+    height: 200px;
+     padding-bottom: 10px;
+     background-color: rgb(220, 226, 233);
+     border-radius: 10px;
+}
+.flg{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 10px;
+}
+.flg h2{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+ .h2  h2{
+    padding: px;
+    font-size: 20px;
+    padding: 20px 20px;
+}
+.p p{
+    margin-left: 20px;
+    margin-top: -5px;
+}
+.p p span{
+    color: rgb(244, 0, 0);
+    font-weight: 900;
+}
+/* upcoming mass all css end */
+
+
+/* responsive------------------ */
+
+/* mobil-- */
+@media screen and (max-width:767px){
+    .baner{
+        display: block;
+    }
+    .box-1 h1, p, a{
+        text-align: center;
+    }
+    .box-1 a{
+       width: 150px;
+        text-align: center;
+        display: inline;
+    }
+.box-2{
+    margin-top: 50px;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.content1{
+    background-color:rgb(255, 255, 255);
+    justify-content: center;
+}
+.content2{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+footer .fu{
+display: grid;
+grid-template-columns: repeat(1,1fr);
+margin-left: -80px;
+}
+
+
+
+
+
+
+}
+
+
+/* tablet--- */
+@media screen and (min-width:768px) and (max-width:1023px) {
+    
+    .box-1 h1{
+        font-size:30px;
+        line-height: 30px;
+        width: 200px;
+    }
+    .main{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .content1{
+        background-color: white;
+        display: grid;
+        grid-template-columns:auto auto auto;
+    }    
+    .content1 a{
+        height: 20px;
+        margin-left: 10px;
+    }
+    .content2{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-top: -150px;
+    }
+    .vew h1{
+        display: block;
+        margin-top: 50px;
+        margin-left: 200px;
+    }
+
+    .fu{
+        display: inline-block;
+        text-align: center;
+        margin-left: -50px;
+        display: flex;
+        margin-bottom: 60px;
+    }
+.fu .f a{
+    display: flex;
+    width: 120px;
+}
+#ak{
+    display: block;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 60px;
+}
+#ak1{
+    display: block;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 60px;
+}
+
+}
+/* tab end * */
